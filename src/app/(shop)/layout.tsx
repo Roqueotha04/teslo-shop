@@ -6,7 +6,7 @@ export default function ShopLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <main >
+      <main className="min-h-screen px-5">
         <TopMenu></TopMenu>
         {children}
       </main>

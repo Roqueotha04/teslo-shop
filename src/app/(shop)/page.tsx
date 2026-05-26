@@ -1,11 +1,13 @@
-import Image from "next/image";
-import { MontserratAlternates } from "../../config/fonts";
+import { Title } from "@/src/components/ui/title/Title";
 
 export default function Home() {
   return (
    <div>
-    <h1>Hola mundo</h1>
-    <h1 className={MontserratAlternates.className}>Hola mundo</h1>
+    <Title
+      title="Tienda"
+      subtitle="Todos los productos"
+      className="mb-2"
+    ></Title>
     </div>
   );
 }
